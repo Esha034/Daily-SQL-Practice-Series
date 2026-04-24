@@ -1,0 +1,33 @@
+/*
+add a new column "email" to the persons table
+*/
+
+
+ALTER TABLE persons
+ADD email varchar(50) NOT NULL;
+
+
+
+
+/*
+Delete existing column "phone" from the persons table
+*/
+
+
+ALTER TABLE persons
+DROP COLUMN phone;
+
+
+
+
+/*
+Delete the table "persons"
+from the database
+*/
+
+
+
+drop table persons;
+
+
+
