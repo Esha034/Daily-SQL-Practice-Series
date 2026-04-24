@@ -1,0 +1,9 @@
+/*
+insert rows into table "customers"
+*/
+
+
+INSERT INTO customers(id,first_name,country,score)
+VALUES 
+(6,'Anna',NULL,400),
+(7,'Peny','USA',NuLL)
