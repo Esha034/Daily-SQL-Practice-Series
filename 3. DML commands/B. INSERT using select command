@@ -1,1 +1,17 @@
+/*Insert data from customers
+table to persons table
+*/
 
+
+INSERT INTO persons(id,name,birth_date,phone)
+SELECT 
+id,
+first_name,
+NULL,
+'Unknown'
+FROM customers;
+
+
+--check whether rows got updated or not
+
+select * from persons;
