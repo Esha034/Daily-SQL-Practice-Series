@@ -1,0 +1,47 @@
+--1. Retrieve all customers from germany
+
+SELECT *
+FROM customers
+WHERE country='Germany';
+
+
+/*2. Retrieve all customers 
+who are not from Germany*/
+
+SELECT *
+FROM customers
+WHERE country <>'Germany';
+
+
+/*3. Retrieve all customers 
+where score greater than 500*/
+
+SELECT *
+FROM customers
+WHERE score>500;
+
+
+/*4. Retrieve all customers 
+where score greater than or equals to 500*/
+
+SELECT *
+FROM customers
+WHERE score>=500;
+
+
+/*5. Retrieve all customers 
+where score less than 500*/
+
+SELECT *
+FROM customers
+WHERE score<500;
+
+
+/*6. Retrieve all customers 
+where score less than 500*/
+
+SELECT *
+FROM customers
+WHERE score<=500;
+
+
