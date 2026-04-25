@@ -1,0 +1,20 @@
+/* retrieve all customers along with their orders
+but only for those who placed and order */
+
+select *
+from customers
+INNER JOIN  orders
+ON id=customer_id
+
+
+/* retrieve all customers along with their orders
+but only for those who placed and order */
+
+select 
+c.id,
+c.first_name,
+o.order_id,
+o.sales
+from customers as c
+INNER JOIN  orders as o
+ON c.id=o.customer_id
