@@ -1,0 +1,24 @@
+/*1. Retrieve all customers 
+whose name starts with M*/
+
+SELECT *
+FROM customers
+WHERE first_name Like 'M%';
+
+
+
+/*2. Retrieve all customers 
+whose name contains r*/
+
+SELECT *
+FROM customers
+WHERE first_name Like '%r%';
+
+
+
+/*3 Retrieve all customers 
+whose name has r in the third position*/
+
+SELECT *
+FROM customers
+WHERE first_name Like '__r%';
