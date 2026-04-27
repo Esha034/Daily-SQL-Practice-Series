@@ -1,0 +1,12 @@
+/*select all the customers and all orders,
+even if there is no match*/
+
+SELECT 
+c.id,
+c.first_name,
+o.order_id,
+o.sales
+
+FROM orders as o
+FULL JOIN customers as c
+on c.id=o.customer_id;
