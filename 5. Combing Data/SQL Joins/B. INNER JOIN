@@ -1,14 +1,5 @@
 /* retrieve all customers along with their orders
-but only for those who placed and order */
-
-select *
-from customers
-INNER JOIN  orders
-ON id=customer_id
-
-
-/* retrieve all customers along with their orders
-but only for those who placed and order */
+but only for those who placed order */
 
 select 
 c.id,
