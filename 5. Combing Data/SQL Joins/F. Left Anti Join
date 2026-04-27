@@ -1,4 +1,4 @@
-/*select all the customers
+/*Get all the customers
 who have not palced any order*/
 
 SELECT 
