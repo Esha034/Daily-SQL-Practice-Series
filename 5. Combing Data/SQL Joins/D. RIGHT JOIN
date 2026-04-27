@@ -1,5 +1,5 @@
 /*select all the customers along with their orders,
-including those without orders*/
+including those without matching cutomers*/
 
 SELECT 
 c.id,
