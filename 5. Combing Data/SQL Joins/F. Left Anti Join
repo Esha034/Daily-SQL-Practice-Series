@@ -1,0 +1,13 @@
+/*select all the customers
+who have not palced any order*/
+
+SELECT 
+c.id,
+c.first_name,
+o.order_id,
+o.sales
+
+FROM customers as c
+LEFT JOIN orders as o
+on c.id=o.customer_id
+WHERE o.customer_id is NULL;
