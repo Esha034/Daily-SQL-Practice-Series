@@ -1,0 +1,11 @@
+/*get all the customers without oders 
+and orders without matching customers*/
+
+
+SELECT *
+
+FROM customers as c
+FULL JOIN orders as o
+on c.id=o.customer_id
+WHERE c.id is NULL or
+o.customer_id is NULL;
