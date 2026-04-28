@@ -1,0 +1,7 @@
+/*generate all possible combination of customer and orders */
+
+
+SELECT *
+
+FROM customers as c
+CROSS JOIN orders as o;
