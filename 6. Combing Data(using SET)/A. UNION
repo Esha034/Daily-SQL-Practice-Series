@@ -1,0 +1,15 @@
+SELECT
+
+FirstName,
+LastName,
+CustomerID
+FROM Sales.Customers
+
+UNION
+
+SELECT
+
+FirstName,
+LastName,
+EmployeeID
+FROM Sales.Employees
