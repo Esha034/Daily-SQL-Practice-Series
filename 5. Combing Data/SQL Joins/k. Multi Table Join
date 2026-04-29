@@ -3,15 +3,14 @@ along with the related customer,
 product and employee*/
 
 SELECT
-
 o.OrderID,
 o.Sales,
-c.FirstName,
-c.LastName,
+c.FirstName as CustomersFirstName,
+c.LastName as CustomersLastName,
 p.Product as ProductName,
 p.Price as ProductPrice,
-e.FirstName as Employee_firstname,
-e.LastName as Employee_lastname
+e.FirstName as EmployeeFirstname,
+e.LastName as EmployeeLastname
 
 FROM Sales.Orders as o
 LEFT join Sales.Customers as c
