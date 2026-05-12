@@ -4,5 +4,5 @@
 SELECT
 first_name,
 country,
-CONCAT(first_name,country) AS customers_name_country
+CONCAT(first_name,' from ',country) AS customers_name_country
 FROM customers;
